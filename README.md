@@ -1,2 +1,5 @@
-# super-upi
-A Super Super App - (Work in Progress)
+# Super UPI
+UPI app - (Work in Progress)
+
+# How it works.
+
