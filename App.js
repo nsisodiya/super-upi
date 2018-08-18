@@ -5,7 +5,7 @@ export default class App extends React.Component {
   render() {
     return (
       <View style={styles.container}>
-        <Text> Super UPI</Text>
+        <Text style={styles.mainText}>Super UPI</Text>
       </View>
     );
   }
@@ -15,5 +15,11 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: 'green',
+    alignItems: 'center'
   },
+  mainText: {
+    fontSize: 40,
+    textAlign: 'center',
+    backgroundColor: 'pink'
+  }
 });
