@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "super-upi",
+    "name": "Super UPI",
     "description": "Super UPI",
     "slug": "super-upi",
     "privacy": "public",
@@ -14,6 +14,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "androidStatusBarColor": "#000000",
     "updates": {
       "fallbackToCacheTimeout": 0
     },
@@ -21,7 +22,12 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.billexo.superupi"
+    },
+    "android": {
+      "versionCode": 2,
+      "package": "com.billexo.superupi"
     }
   }
 }
